@@ -4,10 +4,14 @@ set -e
 
 # IRC Setting
 
+# export HUBOT_IRC_NICK="ohirun_bot"
+# export HUBOT_IRC_ROOMS="#ababup1192"
+# export HUBOT_IRC_SERVER="irc.chat.twitch.tv"
+# export HUBOT_IRC_PASSWORD="oauth:a6fhv7h1ypq06buqzyapzf1swfdfxp"
+
 export HUBOT_IRC_NICK="ohirun_bot"
-export HUBOT_IRC_ROOMS="#ababup1192"
-export HUBOT_IRC_SERVER="irc.chat.twitch.tv"
-export HUBOT_IRC_PASSWORD="oauth:a6fhv7h1ypq06buqzyapzf1swfdfxp"
+export HUBOT_IRC_ROOMS="#abab-room"
+export HUBOT_IRC_SERVER="chat.freenode.net"
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"

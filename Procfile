@@ -1,1 +1,1 @@
-bot: bin/hubot -a irc -n ohirun_bot
+bot: bin/hubot -a irc

@@ -7,12 +7,7 @@ set -e
 export HUBOT_IRC_NICK="ohirun_bot"
 export HUBOT_IRC_ROOMS="#ababup1192"
 export HUBOT_IRC_SERVER="irc.chat.twitch.tv"
-export HUBOT_IRC_PORT="6667"
-export HUBOT_IRC_PASSWORD="leezhz9k766nfm3b3jwshbkviopwf0"
-export HUBOT_HEROKU_WAKEUP_TIME=6:00
-export HUBOT_HEROKU_SLEEP_TIME=24:00
-export TZ="Asia/Tokyo"
-export HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s | grep web-url | cut -d= -f2)
+export HUBOT_IRC_PASSWORD="oauth:a6fhv7h1ypq06buqzyapzf1swfdfxp"
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
